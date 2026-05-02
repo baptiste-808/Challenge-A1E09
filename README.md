@@ -24,6 +24,7 @@ Pour les adresses IP et masques de sous-réseau suivants, calculez :
 
 
 Adresse IP : 192.168.13.67/24
+
 Masque : 255.255.255.0
 
 Ici pas besoin de faire de calcul puisque le masque se termine sur un octet.
@@ -43,6 +44,7 @@ Le **nombres d'adresses disponibles** est de *254*.
 
 
 Adresse IP : 172.16.0.1
+
 Masque : 255.255.255.0
 
 Ici aussi le masque se termine sur un octet, pas besoin de faire de calcul
