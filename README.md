@@ -75,9 +75,10 @@ La **plage d'adresses disponibles** va de `172.16.26.1` à `172.16.27.254`.
 ###### Détermination de l'adresse réseau :
 
 Utilisation du AND logique pour déterminer l'adresse réseau :  
-IP :             `1010 1100.0001 0000.0001 1011.0010 0000`  
-Masque :         `1111 1111.1111 1111.1111 1110.0000 0000`  
-Adresse réseau : `1010 1100.0001 0000.0001 1010.0000 0000`
+| IP :             | `1010 1100.0001 0000.0001 1011.0010 0000` |  
+|:-|:-|
+| Masque :         | `1111 1111.1111 1111.1111 1110.0000 0000` |  
+| Adresse réseau : | `1010 1100.0001 0000.0001 1010.0000 0000` |  
 
 ***Adresse réseau* en décimal** : `172.16.26.0`
 
@@ -88,9 +89,10 @@ Utilisation du NOT logique sur le masque :
 
 Utilisation du OR logique entre le masque inversé et l'adresse IP :
 
-IP :        `0000 0000.0000 0000.0000 0001.1111 1111`  
-Masque :    `1010 1100.0001 0000.0001 1011.0010 0000`  
-Broadcast : `1010 1100.0001 0000.0001 1011.1111 1111`
+|IP :        |`0000 0000.0000 0000.0000 0001.1111 1111`| 
+|:-|:-| 
+|Masque :    |`1010 1100.0001 0000.0001 1011.0010 0000`|  
+|Broadcast : |`1010 1100.0001 0000.0001 1011.1111 1111`|
 
 **Adresse de broadcast** en décimal : `172.16.27.255`
 
@@ -130,9 +132,10 @@ La **plage d'adresses disponibles** va de `10.7.0.1` à `10.7.127.254`
 ###### Détermination de l'adresse réseau :
 
 Utilisation du AND logique pour déterminer l'adresse réseau :  
-IP :             `000 1010.0000 0111.0000 0101.0000 0001`  
-Masque :         `1111 1111.1111 1111.1000 0000.0000 0000`  
-Adresse réseau : `0000 1010.0000 0111.0000 0000.0000 0000`
+|IP :             |`000 1010.0000 0111.0000 0101.0000 0001`|
+|:-|:-|
+|Masque :         |`1111 1111.1111 1111.1000 0000.0000 0000`|  
+|Adresse réseau : |`0000 1010.0000 0111.0000 0000.0000 0000`|
 
 **Adresse réseau** en décimal : `10.7.0.0`
 
@@ -143,9 +146,10 @@ Utilisation du NOT logique sur le masque :
 
 Utilisation du OR logique entre le masque inversé et l'adresse IP :
 
-IP :        `0000 1010.0000 0111.0000 0101.0000 0001`  
-Masque :    `0000 0000.0000 0000.0111 1111.1111 1111`  
-Broadcast : `0000 1010.0000 0111.0111 1111.1111 1111`
+|IP :        |`0000 1010.0000 0111.0000 0101.0000 0001`| 
+|:-|:-|
+|Masque :    |`0000 0000.0000 0000.0111 1111.1111 1111`|  
+|Broadcast : |`0000 1010.0000 0111.0111 1111.1111 1111`|
 
 **Adresse de broadcast** en décimal : `10.7.127.255`
 
@@ -189,9 +193,10 @@ La **plage d'adresses disponibles** va de `10.32.0.1` à `10.47.255.254`
 \###### Détermination de l'adresse réseau :
 
 Utilisation du AND logique pour déterminer l'adresse réseau :  
-IP :             `0000 1010.0010 1010.0000 0000.0101 0010`  
-Masque :         `1111 1111.1111 0000.0000 0000.0000 0000`  
-Adresse réseau : `0000 1010.0010 0000.0000 0000.0000 0000`
+|IP :             |`0000 1010.0010 1010.0000 0000.0101 0010`|  
+|:-|:-|
+|Masque :         |`1111 1111.1111 0000.0000 0000.0000 0000`|  
+|Adresse réseau : |`0000 1010.0010 0000.0000 0000.0000 0000`|
 
 **Adresse réseau** en décimal : `10.32.0.0`
 
@@ -202,9 +207,10 @@ Utilisation du NOT logique sur le masque :
 
 Utilisation du OR logique entre le masque inversé et l'adresse IP :  
 
-IP :        `0000 1010.0010 1010.0000 0000.0101 0010`  
-Masque :    `0000 0000.0000 1111.1111 1111.1111 1111`  
-Broadcast : `0000 1010.0010 1111.1111 1111.1111 1111`  
+|IP :        |`0000 1010.0010 1010.0000 0000.0101 0010`|
+|:-|:-|
+|Masque :    |`0000 0000.0000 1111.1111 1111.1111 1111`|  
+|Broadcast : |`0000 1010.0010 1111.1111 1111.1111 1111`|  
 
 **Adresse de broadcast** en décimal : `10.47.255.255`
 
