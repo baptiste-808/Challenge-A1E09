@@ -66,7 +66,7 @@ Pour trouver l'adresse de broadcast on remplace l'octet par le multiple suivant 
 
 La **plage d'adresses disponibles** va de `172.16.26.1` à `172.16.27.254`.
 
-**Nombre d'adresses disponibles** : Nombre de Byte disponible pour l'hôte-2 : (9^2)-2 = *510*.
+**Nombre d'adresses disponibles** : Nombre de bits disponible pour l'hôte-2 : (9^2)-2 = *510*.
 
 
 
@@ -125,7 +125,7 @@ Pour trouver l'adresse de broadcast on remplace l'octet par le multiple suivant 
 
 La **plage d'adresses disponibles** va de `10.7.0.1` à `10.7.127.254`
 
-**Nombre d'adresses disponibles** : Nombre de Byte disponible pour l'hôte-2 : (2^15)-2 = *32 766*.
+**Nombre d'adresses disponibles** : Nombre de bits disponible pour l'hôte-2 : (2^15)-2 = *32 766*.
 
 ### Utilisation de la méthode classique :
 
@@ -185,7 +185,7 @@ Pour trouver l'adresse de broadcast on remplace l'octet par le multiple suivant 
 
 La **plage d'adresses disponibles** va de `10.32.0.1` à `10.47.255.254`
 
-**Nombre d'adresses disponibles** : Nombre de Byte disponible pour l'hôte-2 : (2^20)-2 = **1 048 574**.  
+**Nombre d'adresses disponibles** : Nombre de bits disponible pour l'hôte-2 : (2^20)-2 = **1 048 574**.  
 
 
 ### Utilisation de la méthode classique :
