@@ -14,26 +14,26 @@ Pour les adresses IP et masques de sous-réseau suivants, calculez :
 ## 192.168.13.67/24
   
 
-Adresse IP : `192.168.13.67/24` 
-Masque : `255.255.255.0`
+Adresse IP : `192.168.13.67/24`   
+Masque : `255.255.255.0`  
 
-Ici pas besoin de faire de calcul puisque le masque se termine sur un octet.
-L'**adresse réseau** est donc `192.168.13.0`.
-L'**adresse de broadcast** `192.168.13.255`.
-La **plage d'adresses disponibles** va de `192.168.13.1` à `192.168.13.254`.
-Le **nombres d'adresses disponibles** est de *254*.  
+Ici pas besoin de faire de calcul puisque le masque se termine sur un octet.  
+L'**adresse réseau** est donc `192.168.13.0`.  
+L'**adresse de broadcast** `192.168.13.255`.  
+La **plage d'adresses disponibles** va de `192.168.13.1` à `192.168.13.254`.  
+Le **nombres d'adresses disponibles** est de *254*.    
   
 
 ## 172.16.0.1 – 255.255.255.0  
 
-Adresse IP : `172.16.0.1`  
-Masque : `255.255.255.0`
+Adresse IP : `172.16.0.1`    
+Masque : `255.255.255.0`  
 
-Ici aussi le masque se termine sur un octet, pas besoin de faire de calcul
-L'**adresse réseau** est donc `172.16.0.0`
-L'**adresse de broadcast** `172.16.0.255`
-La **plage d'adresses disponibles** va de `172.16.0.1` à `172.16.0.254`
-Le **nombres d'adresses disponibles** est de *254*.  
+Ici aussi le masque se termine sur un octet, pas besoin de faire de calcul  
+L'**adresse réseau** est donc `172.16.0.0`  
+L'**adresse de broadcast** `172.16.0.255`  
+La **plage d'adresses disponibles** va de `172.16.0.1` à `172.16.0.254`  
+Le **nombres d'adresses disponibles** est de *254*.    
 
 
 ## 172.16.27.32/23
@@ -139,7 +139,7 @@ Utilisation du AND logique pour déterminer l'adresse réseau :
 
 **Adresse réseau** en décimal : `10.7.0.0`
 
-###### Détermination de l'ardesse de broadcast :
+###### Détermination de l'adresse de broadcast :
 
 Utilisation du NOT logique sur le masque :  
 `0000 0000.0000 0000.0111 1111.1111 1111`
@@ -190,7 +190,7 @@ La **plage d'adresses disponibles** va de `10.32.0.1` à `10.47.255.254`
 
 ### Utilisation de la méthode classique :
 
-\###### Détermination de l'adresse réseau :
+###### Détermination de l'adresse réseau :
 
 Utilisation du AND logique pour déterminer l'adresse réseau :  
 |IP :             |`0000 1010.0010 1010.0000 0000.0101 0010`|  
@@ -200,7 +200,7 @@ Utilisation du AND logique pour déterminer l'adresse réseau :
 
 **Adresse réseau** en décimal : `10.32.0.0`
 
-###### Détermination de l'ardesse de broadcast :
+###### Détermination de l'adresse de broadcast :
 
 Utilisation du NOT logique sur le masque :  
 `0000 0000.0000 1111.1111 1111.1111 1111`
