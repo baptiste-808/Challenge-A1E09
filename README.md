@@ -132,7 +132,7 @@ La **plage d'adresses disponibles** va de `10.7.0.1` à `10.7.127.254`
 ###### Détermination de l'adresse réseau :
 
 Utilisation du AND logique pour déterminer l'adresse réseau :  
-|IP :             |`000 1010.0000 0111.0000 0101.0000 0001`|
+|IP :             |`0000 1010.0000 0111.0000 0101.0000 0001`|
 |:-|:-|
 |Masque :         |`1111 1111.1111 1111.1000 0000.0000 0000`|  
 |Adresse réseau : |`0000 1010.0000 0111.0000 0000.0000 0000`|
